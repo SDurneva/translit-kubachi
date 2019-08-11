@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="UTF-8">
+	<title>Transliterator</title>
+	<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Kubachi transliterator</h1>
+    <form>
+      <textarea id="kubachi_text" type="textarea" rows="7" cols="80" placeholder="input text in Kubachi" spellcheck="false"></textarea><br>
+	  <div id='main'>
+	  <label class="option">Remove punctuation
+	       <input id="punct" type="checkbox"><span class="checkmark"></span>
+	  </label><br>
+	  <label class="option">Replace spaces with tabs
+	      <input id="tab" type="checkbox"><span class="checkmark"></span>
+	  </label><br>
+      <label class="option">Don't show stress
+          <input id="stress" type="checkbox"><span class="checkmark"></span>
+      </label><br>
+		</div>
+    </form>
+    <br>
+	<button type="button" class="button" id="transliterate">Transliterate</button>
+
+
+    <!--transliterator end-->
+    <div id="output">
+	   <textarea rows="7" cols="80" id="tip" name="output" spellcheck="false"></textarea>
+    </div>
+    <p align="center"><a class="git" href="https://github.com/SDurneva/translit-kubachi">Github</a></p>
+    <script type="text/javascript" src="translit.js"></script>
+</body>
+</html>
