@@ -24,7 +24,7 @@ function kub2ipa(value) {
 	value = value.replace(/е/g,"e")
 	value = value.replace(/Е/g,"é")
 	value = value.replace(/ё/g,"oˤ")
-	value = value.replace(/ё/g,"óˤ")
+	value = value.replace(/Ё/g,"óˤ")
 	value = value.replace(/и/g,"i")
 	value = value.replace(/И/g,"í")
 	value = value.replace(/о/g,"o")
