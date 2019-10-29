@@ -117,6 +117,9 @@ function kub2ipa(value) {
 	value = value.replace(/ш/g,"š")
 	value = value.replace(/щ/g,"šː")
 	value = value.replace(/ъ/g,"ʔ")
+
+//cyrillic i ti latin i
+	value = value.replace(/і/g,"i")
 return value
 }
 // punctuation
