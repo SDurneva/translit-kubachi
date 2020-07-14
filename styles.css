@@ -13,6 +13,7 @@ textarea {
   font-family: inherit;
 }
 
+
 h1 {
   padding: 0.5em 0;
   text-align: center;
@@ -25,6 +26,18 @@ input {
 
 textarea {
   line-height: 1.6;
+}
+
+select {
+  margin-left: 10px;
+  cursor: pointer;
+  padding: 8px 10px;
+  width: 160px;
+  height: 37px;
+  background-color: transparent;
+  border: 1px solid #00a191;
+  font-family: inherit;
+  font-size: 0.9em;
 }
 
 
