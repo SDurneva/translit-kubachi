@@ -163,6 +163,9 @@ function chir2ipa(value) {
 	value = value.replace(/У/g,"ú")
 	value = value.toLowerCase()
 
+	// convert quadruple consonants
+		value = value.replace(/хьхь/g,"x")
+
   // convert triple consonants
   	value = value.replace(/ч1в/g,"č'ʷ")
   	value = value.replace(/чiв/g,"č'ʷ")
