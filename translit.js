@@ -142,6 +142,7 @@ return value
 function chir2ipa(value) {
 // double vowels
 	value = value.replace(/оь/g,"ṵ")
+	value = value.replace(/аь/g,"a̰")
 
 // vowels and stress
 	value = value.replace(/а/g,"a")
